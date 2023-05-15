@@ -14,3 +14,6 @@ adapun, image ini sudah dioptimasi untuk kebutuhan ujian online bersama secara o
 http://192.168.1.100/phpmyadmin            -----> untuk akses database
                                                 username : root
                                                 Password : garudacbtdb2023!
+                                                
+ 
+![image.jpg]( {https://cloud.origrata.com/index.php/apps/files_sharing/publicpreview/7DREcKCFCG3BrDk?x=1366&y=307&a=true&file=garudacbt.jpg&scalingup=0} )
