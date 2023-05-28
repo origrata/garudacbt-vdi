@@ -32,3 +32,5 @@ tekan
 ctrl + O => untuk menuliskan yang dirobah
 ctrl + m => untuk menyimpan
 ctrl + x => untuk keluar dari nano
+
+sudo init 6 => untuk restart VM
