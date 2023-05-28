@@ -11,6 +11,14 @@ adapun, image ini sudah dioptimasi untuk kebutuhan ujian online bersama secara o
 5. untuk akses aplikasi gunakan 192.168.1.100    username : admin
                                                  Password : admin123
 
+6. Login OS 
+username : garudacbt
+password : garudacbt2023!
+
+root akses sudo su 
+
+password: garudacbt2023!
+
 http://192.168.1.100/phpmyadmin            -----> untuk akses database
                                                 username : root
                                                 Password : garudacbtdb2023!
