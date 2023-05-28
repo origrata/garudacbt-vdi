@@ -25,3 +25,10 @@ https://cloud.origrata.com/index.php/apps/files_sharing/publicpreview/fz4Ype6iwG
 ![image.png](https://cloud.origrata.com/index.php/apps/files_sharing/publicpreview/fz4Ype6iwGmnPSJ?fileId=64898&file=/garudacbt2.jpg&x=1366&y=768&a=true)
 
 ![image.png](https://cloud.origrata.com/index.php/apps/files_sharing/publicpreview/fz4Ype6iwGmnPSJ?fileId=64899&file=/garudacbt3.jpg&x=1366&y=768&a=true)
+
+setelah networknya dirobah
+tekan 
+
+ctrl + O => untuk menuliskan yang dirobah
+ctrl + m => untuk menyimpan
+ctrl + x => untuk keluar dari nano
