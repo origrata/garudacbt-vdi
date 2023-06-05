@@ -3,6 +3,8 @@
 vdi ini merupakan cloud image dari aplikasi yang dikembangkan oleh https://garudacbt.github.io/cbt/
 adapun, image ini sudah dioptimasi untuk kebutuhan ujian online bersama secara offline
 
+Gunakan VirtualBox Versi 7.0
+
 1. Download file ova nya dari  https://drive.google.com/file/d/1ReTC-Bf6He6HxOklc9KCgRbFyqXWtjmV/view?usp=sharing  dengan ukuran 1.4 GB
 2. file garudacbt-1.4.8.ova importkan ke virtualboxnya melalui menu file --> import Appliance
 3. klik saja next sampai finish
