@@ -5,7 +5,7 @@ adapun, image ini sudah dioptimasi untuk kebutuhan ujian online bersama secara o
 
 Gunakan VirtualBox Versi 7.0
 
-1. Download file ova nya dari  https://drive.google.com/file/d/1ReTC-Bf6He6HxOklc9KCgRbFyqXWtjmV/view?usp=sharing  dengan ukuran 1.4 GB
+1. Download file ova nya dari  https://drive.google.com/drive/folders/14ldxeWz_LViATtXWoGdTqBYxnJt_E7wn?usp=sharing  dengan ukuran 1.4 GB
 2. file garudacbt-1.4.8.ova importkan ke virtualboxnya melalui menu file --> import Appliance
 3. klik saja next sampai finish
 4. Perhatikan Settingan Pada Network Bridger Adapter, Pastikan Arah Bridgenya sama dengan ethernet yang terhubung ke router
@@ -16,6 +16,9 @@ Gunakan VirtualBox Versi 7.0
 6. Login OS 
 username : garudacbt
 password : garudacbt2023!
+
+7. Monitoring Server Dengan Cockpit Berbasis WEB 
+   https://192.168.1.100:9090
 
 root akses sudo su 
 
