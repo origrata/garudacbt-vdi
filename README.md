@@ -5,12 +5,11 @@ adapun, image ini sudah dioptimasi untuk kebutuhan ujian online bersama secara o
 
 Gunakan VirtualBox Versi 7.0
 
-1. Download file ova nya dari  https://drive.google.com/drive/folders/14ldxeWz_LViATtXWoGdTqBYxnJt_E7wn?usp=sharing  dengan ukuran 1.4 GB
-2. file garudacbt-1.4.8.ova importkan ke virtualboxnya melalui menu file --> import Appliance
+1. Download file ova nya dari  
+https://drive.google.com/file/d/1ZxAL05jgC319ziHR_x6eQJpn18Ryg1D7/view?usp=drive_link 
+2. file garudacbt-1.5.1.ova importkan ke virtualboxnya melalui menu file --> import Appliance
 3. klik saja next sampai finish
-4. Perhatikan Settingan Pada Network Bridger Adapter, Pastikan Arah Bridgenya sama dengan ethernet yang terhubung ke router
-   dengan Segment IP 192.168.1.0/24
-5. untuk akses aplikasi gunakan 192.168.1.100    username : admin
+5. untuk akses aplikasi gunakan IP komputer hostnya   username : admin
                                                  Password : admin123
 
 6. Login OS 
@@ -18,13 +17,13 @@ username : garudacbt
 password : garudacbt2023!
 
 7. Monitoring Server Dengan Cockpit Berbasis WEB 
-   https://192.168.1.100:9090
+   https://host:9090
 
 root akses sudo su 
 
 password: garudacbt2023!
 
-http://192.168.1.100/phpmyadmin            -----> untuk akses database
+http://host/phpmyadmin            -----> untuk akses database
                                                 username : root
                                                 Password : garudacbtdb2023!
                                                 
