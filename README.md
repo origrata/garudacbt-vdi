@@ -5,27 +5,36 @@ adapun, image ini sudah dioptimasi untuk kebutuhan ujian online bersama secara o
 
 Gunakan VirtualBox Versi 7.0
 
+ip default VDI : 10.0.2.2 
+
+webserver : nginx
+php       : php7.4-fpm
+Database  : mariadb
+
 1. Download file ova nya dari  
-https://drive.google.com/file/d/1ZxAL05jgC319ziHR_x6eQJpn18Ryg1D7/view?usp=drive_link 
-2. file garudacbt-1.5.1.ova importkan ke virtualboxnya melalui menu file --> import Appliance
+https://drive.google.com/file/d/1ycH4S2ZGjcV5gHBX5KFnfPsDZeZgalJy/view?usp=sharing 
+2. file garudacbt-1.5.2.ova importkan ke virtualboxnya melalui menu file --> import Appliance
 3. klik saja next sampai finish
-5. untuk akses aplikasi gunakan IP komputer hostnya   username : admin
+4. Untuk Network Gunakan topologi NAT network dengan ip local 10.0.2.0/24
+   port forwarding
+   ![image.png](https://cloud.origrata.com/index.php/apps/files_sharing/publicpreview/XLSjCdsRSSnst2f?x=1366&y=301&a=true&file=port%2520forwarding.jpg)
+   
+6. untuk akses aplikasi gunakan IP komputer hostnya   username : admin
                                                  Password : admin123
 
-6. Login OS 
+7. Login OS 
 username : garudacbt
 password : garudacbt2023!
-
-7. Monitoring Server Dengan Cockpit Berbasis WEB 
-   https://host:9090
 
 root akses sudo su 
 
 password: garudacbt2023!
 
-http://host/phpmyadmin            -----> untuk akses database
+http://ip_komputer_anda/phpmyadmin            -----> untuk akses database
                                                 username : root
                                                 Password : garudacbtdb2023!
+
+http://ip_komputer_anda/filemanager/
                                                 
  ![image.png]( https://cloud.origrata.com/index.php/apps/files_sharing/publicpreview/7DREcKCFCG3BrDk?x=1366&y=307&a=true&file=garudacbt.jpg )
  
