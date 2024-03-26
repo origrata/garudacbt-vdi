@@ -7,34 +7,34 @@ Gunakan VirtualBox Versi 7.0
 
 ip default VDI : 10.0.2.2 
 
-webserver : nginx
+webserver : apache (mpm_event)
 php       : php7.4-fpm
 Database  : mariadb
+Cache     : varnish
 
 1. Download file ova nya dari  
-https://drive.google.com/file/d/1ycH4S2ZGjcV5gHBX5KFnfPsDZeZgalJy/view?usp=sharing 
-2. file garudacbt-1.5.2.ova importkan ke virtualboxnya melalui menu file --> import Appliance
+https://drive.google.com/file/d/1FJnS9LXx1bQqhZoElBOkQaCwv1Pav13r/view?usp=sharing
+2. file garudacbt-2024-152.ova importkan ke virtualboxnya melalui menu file --> import Appliance
 3. klik saja next sampai finish
 4. Untuk Network Gunakan topologi NAT network dengan ip local 10.0.2.0/24
    port forwarding
    ![image.png](https://cloud.origrata.com/index.php/apps/files_sharing/publicpreview/XLSjCdsRSSnst2f?x=1366&y=301&a=true&file=port%2520forwarding.jpg)
    
-6. untuk akses aplikasi gunakan IP komputer hostnya   username : admin
-                                                 Password : admin123
+6. untuk akses aplikasi gunakan IP komputer hostnya   
+   username : admin
+   Password : admin123
 
 7. Login OS 
-username : garudacbt
-password : garudacbt2023!
+username : root
+password : garudacbt2024
 
-root akses sudo su 
+http://ip_komputer_anda/dbpanel.php            -----> untuk akses database
+username : root
+Password : Password123#@!
 
-password: garudacbt2023!
-
-http://ip_komputer_anda/phpmyadmin            -----> untuk akses database
-                                                username : root
-                                                Password : garudacbtdb2023!
-
-http://ip_komputer_anda/filemanager/
+http://ip_komputer_anda/filemanager.php
+username : admin
+Password : admin@123
                                                 
  ![image.png]( https://cloud.origrata.com/index.php/apps/files_sharing/publicpreview/7DREcKCFCG3BrDk?x=1366&y=307&a=true&file=garudacbt.jpg )
  
